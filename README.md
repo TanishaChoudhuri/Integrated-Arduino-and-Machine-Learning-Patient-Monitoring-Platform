@@ -1,11 +1,9 @@
 # Integrated Arduino and Machine Learning Patient Monitoring Platform
 This project presents a low-cost, real-time patient monitoring system that integrates Arduino-based sensor acquisition with machine learning–driven health prediction. The system continuously tracks three vital signs:
 
--> Heart Rate (BPM) – measured using the AD8232 ECG sensor
-
--> Respiratory Rate (Breaths/min) – measured using a chest-mounted piezoelectric sensor
-
--> Body Temperature (°C) – measured using an NTC103 thermistor
+- Heart Rate (BPM) – measured using the AD8232 ECG sensor
+- Respiratory Rate (Breaths/min) – measured using a chest-mounted piezoelectric sensor
+- Body Temperature (°C) – measured using an NTC103 thermistor
 
 The raw analog signals are processed by the Arduino and displayed on an I2C LCD for immediate feedback. Simultaneously, the data is transmitted over serial to a Python ML model, which classifies the patient’s status and generates predictive alerts for timely intervention.
 
